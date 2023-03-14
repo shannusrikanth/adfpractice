@@ -1,0 +1,72 @@
+{
+	"name": "DS_ABS_csv1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_ABS",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "kdatasets"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "cust1 (1).csv",
+				"container": "kinput"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "name",
+				"type": "String"
+			},
+			{
+				"name": "alpha-2",
+				"type": "String"
+			},
+			{
+				"name": "alpha-3",
+				"type": "String"
+			},
+			{
+				"name": "country-code",
+				"type": "String"
+			},
+			{
+				"name": "iso_3166-2",
+				"type": "String"
+			},
+			{
+				"name": "region",
+				"type": "String"
+			},
+			{
+				"name": "sub-region",
+				"type": "String"
+			},
+			{
+				"name": "intermediate-region",
+				"type": "String"
+			},
+			{
+				"name": "region-code",
+				"type": "String"
+			},
+			{
+				"name": "sub-region-code",
+				"type": "String"
+			},
+			{
+				"name": "intermediate-region-code",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

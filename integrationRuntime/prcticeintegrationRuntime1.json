@@ -1,0 +1,6 @@
+{
+	"name": "prcticeintegrationRuntime1",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
