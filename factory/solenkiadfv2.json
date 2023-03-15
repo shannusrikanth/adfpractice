@@ -1,0 +1,9 @@
+{
+	"name": "solenkiadfv2",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "75c6da54-bcaf-45be-98ff-7e064852f991",
+		"tenantId": "147affd6-e33d-4f53-b9e2-12fb57808801"
+	}
+}

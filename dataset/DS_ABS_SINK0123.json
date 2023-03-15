@@ -1,0 +1,20 @@
+{
+	"name": "DS_ABS_SINK0123",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_ABS0123",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "output"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

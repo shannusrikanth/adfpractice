@@ -1,0 +1,26 @@
+{
+	"name": "DS_ADLS2_sink",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_ADLS0123",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "kdatasets"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "koutput"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
