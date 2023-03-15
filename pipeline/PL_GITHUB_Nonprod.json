@@ -1,0 +1,17 @@
+{
+	"name": "PL_GITHUB_Nonprod",
+	"properties": {
+		"activities": [
+			{
+				"name": "Wait_srikanth",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 1
+				}
+			}
+		],
+		"annotations": []
+	}
+}
